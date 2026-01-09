@@ -199,8 +199,10 @@ export default function Home() {
             {/* Breakfast */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M11 9H9c0-1.1.9-2 2-2s2 .9 2 2h-2zm6-2c1.1 0 2 .9 2 2h2c0-2.2-1.8-4-4-4v2zm0 7c1.1 0 2-.9 2-2h2c0 2.2-1.8 4-4 4v-2zM8 12c0 2.2 1.8 4 4 4v2c-3.3 0-6-2.7-6-6h2zm8-8v2h2V4h-2zm0 16v2h2v-2h-2zM4 12h2c0-2.2 1.8-4 4-4V6c-3.3 0-6 2.7-6 6z" />
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                  <path d="M6 3h12c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2z" />
+                  <path d="M9 8h6M9 11h6M9 14h3" />
+                  <circle cx="18" cy="14" r="1.5" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Desayuno Incluido</h3>
@@ -210,8 +212,10 @@ export default function Home() {
             {/* Air Conditioning */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 15c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 5 15.5 5 14 5.67 14 6.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 5 8.5 5 7 5.67 7 6.5 7.67 8 8.5 8zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" />
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                  <path d="M3 7h18c.55 0 1 .45 1 1v8c0 .55-.45 1-1 1H3c-.55 0-1-.45-1-1V8c0-.55.45-1 1-1z" />
+                  <path d="M6 11v2M10 11v2M14 11v2M18 11v2" />
+                  <path d="M5 18h14" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Aire Acondicionado</h3>
@@ -254,8 +258,9 @@ export default function Home() {
             {/* Hairdryer */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M13 2h-2v2h2V2zm0 18h-2v2h2v-2zm6-9h2v2h-2v-2zM3 11h2v2H3v-2zm12-8h-2v2h2V3zM7 2H5v2h2V2zm0 18H5v2h2v-2zm10-9h2v2h-2v-2zM7 11H5v2h2v-2zm8 8h-2v2h2v-2zm-4-8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z" />
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                  <path d="M6 4c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v3h4V4c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v3c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2h-2v2h-2v-2H8v2H6v-2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2V4z" />
+                  <path d="M9 10c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zM15 10c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Secador de Pelo</h3>
