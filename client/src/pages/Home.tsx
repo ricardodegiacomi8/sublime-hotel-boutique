@@ -255,18 +255,6 @@ export default function Home() {
               <p className="text-sm text-muted-foreground font-light">Bebidas y snacks disponibles</p>
             </div>
 
-            {/* Hairdryer */}
-            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                  <path d="M6 4c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v3h4V4c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v3c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2h-2v2h-2v-2H8v2H6v-2H4c-1.1 0-2-.9-2-2V9c0-1.1.9-2 2-2V4z" />
-                  <path d="M9 10c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zM15 10c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z" />
-                </svg>
-              </div>
-              <h3 className="font-serif text-lg text-primary mb-2">Secador de Pelo</h3>
-              <p className="text-sm text-muted-foreground font-light">En todas las habitaciones</p>
-            </div>
-
             {/* Parking */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
