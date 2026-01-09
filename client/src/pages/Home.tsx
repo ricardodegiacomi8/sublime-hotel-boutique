@@ -382,20 +382,21 @@ export default function Home() {
                 <tr className="border-b border-border hover:bg-secondary/30 transition-colors">
                   <td className="py-6 px-6">
                     <div className="space-y-1">
-                      <p className="font-serif text-lg text-primary">Habitación Individual</p>
-                      <p className="text-sm text-muted-foreground">Ideal para viajeros solos</p>
+                      <p className="font-serif text-lg text-primary">Single</p>
+                      <p className="text-sm text-muted-foreground">Cama matrimonial</p>
                     </div>
                   </td>
-                  <td className="text-center py-6 px-6 text-foreground">1 Persona</td>
+                  <td className="text-center py-6 px-6 text-foreground">1-2 Personas</td>
                   <td className="text-center py-6 px-6">
                     <div className="flex flex-wrap gap-2 justify-center">
                       <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">WiFi</span>
                       <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">A/C</span>
                       <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">TV</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">Frigobar</span>
                     </div>
                   </td>
                   <td className="text-right py-6 px-6">
-                    <p className="font-serif text-xl text-accent">$65</p>
+                    <p className="font-serif text-xl text-accent">Gs. 300.000</p>
                     <p className="text-xs text-muted-foreground">+ desayuno</p>
                   </td>
                 </tr>
@@ -404,8 +405,8 @@ export default function Home() {
                 <tr className="border-b border-border hover:bg-secondary/30 transition-colors">
                   <td className="py-6 px-6">
                     <div className="space-y-1">
-                      <p className="font-serif text-lg text-primary">Habitación Doble</p>
-                      <p className="text-sm text-muted-foreground">Cama matrimonial confortable</p>
+                      <p className="font-serif text-lg text-primary">Doble o Matrimonial</p>
+                      <p className="text-sm text-muted-foreground">Cama matrimonial premium</p>
                     </div>
                   </td>
                   <td className="text-center py-6 px-6 text-foreground">2 Personas</td>
@@ -418,39 +419,16 @@ export default function Home() {
                     </div>
                   </td>
                   <td className="text-right py-6 px-6">
-                    <p className="font-serif text-xl text-accent">$85</p>
+                    <p className="font-serif text-xl text-accent">Gs. 400.000</p>
                     <p className="text-xs text-muted-foreground">+ desayuno</p>
                   </td>
                 </tr>
 
-                {/* Twin Room */}
-                <tr className="border-b border-border hover:bg-secondary/30 transition-colors">
-                  <td className="py-6 px-6">
-                    <div className="space-y-1">
-                      <p className="font-serif text-lg text-primary">Habitación Twin</p>
-                      <p className="text-sm text-muted-foreground">Dos camas individuales</p>
-                    </div>
-                  </td>
-                  <td className="text-center py-6 px-6 text-foreground">2 Personas</td>
-                  <td className="text-center py-6 px-6">
-                    <div className="flex flex-wrap gap-2 justify-center">
-                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">WiFi</span>
-                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">A/C</span>
-                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">TV</span>
-                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">Frigobar</span>
-                    </div>
-                  </td>
-                  <td className="text-right py-6 px-6">
-                    <p className="font-serif text-xl text-accent">$85</p>
-                    <p className="text-xs text-muted-foreground">+ desayuno</p>
-                  </td>
-                </tr>
-
-                {/* Suite */}
+                {/* Suite Sublime */}
                 <tr className="border-b border-border hover:bg-secondary/30 transition-colors bg-secondary/10">
                   <td className="py-6 px-6">
                     <div className="space-y-1">
-                      <p className="font-serif text-lg text-primary">Suite Deluxe</p>
+                      <p className="font-serif text-lg text-primary">Suite Sublime</p>
                       <p className="text-sm text-muted-foreground">Máximo confort y lujo</p>
                     </div>
                   </td>
@@ -461,11 +439,10 @@ export default function Home() {
                       <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">A/C</span>
                       <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">TV</span>
                       <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">Frigobar</span>
-                      <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">Sala</span>
                     </div>
                   </td>
                   <td className="text-right py-6 px-6">
-                    <p className="font-serif text-xl text-accent">$120</p>
+                    <p className="font-serif text-xl text-accent">Gs. 500.000</p>
                     <p className="text-xs text-muted-foreground">+ desayuno</p>
                   </td>
                 </tr>
