@@ -1,17 +1,21 @@
 import Layout from "@/components/Layout";
+import ReservationForm from "@/components/ReservationForm";
 import { Button } from "@/components/ui/button";
 import { MapView } from "@/components/Map";
 import { Star, Coffee, Heart, ShieldCheck, MapPin, ArrowRight } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 export default function Home() {
   const mapRef = useRef<google.maps.Map | null>(null);
+  const [isReservationFormOpen, setIsReservationFormOpen] = useState(false);
 
   // Coordenadas aproximadas de Concepción, Paraguay (centro)
   // Ajustar si se tiene la ubicación exacta precisa
   const hotelLocation = { lat: -23.4000, lng: -57.4333 }; 
 
   return (
+    <>
+    <ReservationForm isOpen={isReservationFormOpen} onClose={() => setIsReservationFormOpen(false)} />
     <Layout>
       {/* Hero Section */}
       <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
@@ -40,7 +44,7 @@ export default function Home() {
             <Button 
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 rounded-full px-8 py-6 text-lg font-serif italic shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => setIsReservationFormOpen(true)}
             >
               Reservar su estadía
             </Button>
@@ -320,7 +324,7 @@ export default function Home() {
             <Button 
               size="lg" 
               className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-10 py-6 text-lg font-serif italic shadow-lg"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => setIsReservationFormOpen(true)}
             >
               Reservar Ahora
             </Button>
@@ -336,5 +340,6 @@ export default function Home() {
         </div>
       </section>
     </Layout>
+    </>
   );
 }

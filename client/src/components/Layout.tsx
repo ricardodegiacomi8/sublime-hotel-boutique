@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Instagram, Phone, MapPin } from "lucide-react";
+import { Menu, X, Instagram, Phone, MapPin, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
@@ -117,6 +117,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="flex flex-col gap-3 text-primary-foreground/80">
               <a href="tel:+595987488884" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Phone size={18} /> +595 987 488 884
+              </a>
+              <a href="mailto:contacto.hotelsublime@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Mail size={18} /> contacto.hotelsublime@gmail.com
               </a>
               <a href="https://instagram.com/sublimehotelboutique" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Instagram size={18} /> @sublimehotelboutique
