@@ -43,10 +43,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         )}
       >
         <div className="container flex items-center justify-between">
-          <Link href="/">
-            <a className="text-2xl font-serif font-bold tracking-tighter text-primary hover:opacity-80 transition-opacity">
-              Sublime<span className="text-foreground font-light">Hotel</span>
-            </a>
+          <Link href="/" className="text-2xl font-serif font-bold tracking-tighter text-primary hover:opacity-80 transition-opacity">
+            Sublime<span className="text-foreground font-light">Hotel</span>
           </Link>
 
           {/* Desktop Nav */}
