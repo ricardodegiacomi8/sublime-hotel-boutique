@@ -459,10 +459,6 @@ export default function Home() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-accent mt-1">•</span>
-                <span>Descuentos disponibles para estadías de 3 noches o más. Consulta nuestras promociones especiales.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-accent mt-1">•</span>
                 <span>Estacionamiento amplio y cubierto incluido sin costo adicional.</span>
               </li>
               <li className="flex items-start gap-3">
