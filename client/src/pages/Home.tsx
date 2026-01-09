@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero-hotel.jpg" 
+            src="/images/hotel-interior.jpg" 
             alt="Lobby elegante del Sublime Hotel Boutique" 
             className="w-full h-full object-cover"
           />
@@ -80,18 +80,18 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="relative order-1 lg:order-2 h-[600px] w-full">
+            <div className="relative order-1 lg:order-2 h-[600px] w-full">
             <div className="absolute top-0 right-0 w-4/5 h-4/5 rounded-2xl overflow-hidden shadow-2xl z-10">
               <img 
-                src="/images/room-comfort.jpg" 
+                src="/images/room-real.jpg" 
                 alt="Habitación confortable" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="absolute bottom-0 left-0 w-3/5 h-3/5 rounded-2xl overflow-hidden shadow-xl z-20 border-8 border-background">
               <img 
-                src="/images/hotel-facade-evening.jpg" 
-                alt="Fachada del hotel" 
+                src="/images/staircase.jpg" 
+                alt="Escalera elegante del hotel" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
@@ -115,11 +115,11 @@ export default function Home() {
             {/* Card 1 */}
             <div className="group bg-background rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-border/50">
               <div className="h-64 overflow-hidden">
-                <img 
-                  src="/images/breakfast-detail.jpg" 
-                  alt="Desayuno gourmet" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+              <img 
+                src="/images/breakfast-real.jpg" 
+                alt="Desayuno gourmet" 
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
               </div>
               <div className="p-8 space-y-4">
                 <Coffee className="w-8 h-8 text-accent" />
@@ -132,12 +132,12 @@ export default function Home() {
 
             {/* Card 2 */}
             <div className="group bg-background rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-border/50">
-              <div className="h-64 overflow-hidden bg-primary/5 flex items-center justify-center">
-                {/* Placeholder visual since we generated 4 images */}
-                <div className="text-center p-6">
-                  <Star className="w-16 h-16 text-accent/20 mx-auto mb-4" />
-                  <p className="font-serif text-primary/40 italic">Atención Premium</p>
-                </div>
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="/images/hotel-interior.jpg" 
+                  alt="Servicio personalizado" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
               <div className="p-8 space-y-4">
                 <Star className="w-8 h-8 text-accent" />
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="group bg-background rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-border/50">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/images/hero-hotel.jpg" 
+                  src="/images/staircase.jpg" 
                   alt="Ambiente elegante" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
