@@ -199,8 +199,8 @@ export default function Home() {
             {/* Breakfast */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M3 7h2v2H3V7zm4 0h2v2H7V7zm4 0h2v2h-2V7zm4 0h2v2h-2V7zm4 0h2v2h-2V7zM3 11h2v2H3v-2zm4 0h2v2H7v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zM2 15c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-2H2v2zm0 4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-2H2v2z" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Desayuno Incluido</h3>
@@ -210,8 +210,8 @@ export default function Home() {
             {/* Air Conditioning */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4v2m0 0H8m4 0h4" />
+                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-6-8l-3 4h10l-4-5-3 4z" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Aire Acondicionado</h3>
@@ -221,8 +221,8 @@ export default function Home() {
             {/* TV Cable */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zm-10-7l6-4v8l-6-4z" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">TV por Cable</h3>
@@ -243,8 +243,8 @@ export default function Home() {
             {/* Minibar */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18 2h-1V1h-2v1h-2V1h-2v1h-2V1H8v1H7c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H7V7h11v13z" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Frigobar</h3>
@@ -254,8 +254,8 @@ export default function Home() {
             {/* Hairdryer */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18 9c-1.1 0-2 .9-2 2v5c0 1.1.9 2 2 2s2-.9 2-2v-5c0-1.1-.9-2-2-2zm-9-7H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h6v-2H3V4h6V2zm9 7c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Secador de Pelo</h3>
@@ -265,8 +265,8 @@ export default function Home() {
             {/* Parking */}
             <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.22.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm11 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM5 11l1.5-4.5h11L19 11H5z" />
                 </svg>
               </div>
               <h3 className="font-serif text-lg text-primary mb-2">Estacionamiento</h3>
