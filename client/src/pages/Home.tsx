@@ -386,7 +386,7 @@ export default function Home() {
                       <p className="text-sm text-muted-foreground">Cama matrimonial</p>
                     </div>
                   </td>
-                  <td className="text-center py-6 px-6 text-foreground">1-2 Personas</td>
+                  <td className="text-center py-6 px-6 text-foreground">1 Persona</td>
                   <td className="text-center py-6 px-6">
                     <div className="flex flex-wrap gap-2 justify-center">
                       <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">WiFi</span>
@@ -397,7 +397,7 @@ export default function Home() {
                   </td>
                   <td className="text-right py-6 px-6">
                     <p className="font-serif text-xl text-accent">Gs. 300.000</p>
-                    <p className="text-xs text-muted-foreground">+ desayuno</p>
+                    <p className="text-xs text-muted-foreground">Inc. Desayuno</p>
                   </td>
                 </tr>
 
@@ -420,7 +420,7 @@ export default function Home() {
                   </td>
                   <td className="text-right py-6 px-6">
                     <p className="font-serif text-xl text-accent">Gs. 400.000</p>
-                    <p className="text-xs text-muted-foreground">+ desayuno</p>
+                    <p className="text-xs text-muted-foreground">Inc. Desayuno</p>
                   </td>
                 </tr>
 
@@ -443,7 +443,7 @@ export default function Home() {
                   </td>
                   <td className="text-right py-6 px-6">
                     <p className="font-serif text-xl text-accent">Gs. 500.000</p>
-                    <p className="text-xs text-muted-foreground">+ desayuno</p>
+                    <p className="text-xs text-muted-foreground">Inc. Desayuno</p>
                   </td>
                 </tr>
               </tbody>
