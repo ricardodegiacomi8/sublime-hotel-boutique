@@ -52,16 +52,16 @@
   --popover: oklch(0.99 0.005 85);
   --popover-foreground: oklch(0.25 0.02 85);
 
-  --primary: oklch(0.62 0.18 65); /* Dorado/Champagne profundo */
+  --primary: oklch(0.45 0.08 135); /* Verde Oliva profundo - estilo Concepción Palace */
   --primary-foreground: oklch(0.98 0.01 85);
 
-  --secondary: oklch(0.92 0.03 85); /* Beige Arena */
-  --secondary-foreground: oklch(0.35 0.04 40); /* Terracota oscuro para texto sobre beige */
+  --secondary: oklch(0.70 0.08 65); /* Beige/Tostado cálido */
+  --secondary-foreground: oklch(0.25 0.02 85); /* Texto oscuro sobre beige */
 
   --muted: oklch(0.95 0.02 85);
   --muted-foreground: oklch(0.55 0.03 85);
 
-  --accent: oklch(0.70 0.14 65); /* Dorado claro */
+  --accent: oklch(0.65 0.12 40); /* Terracota suave */
   --accent-foreground: oklch(0.98 0.01 85);
 
   --destructive: oklch(0.577 0.245 27.325);
@@ -69,7 +69,7 @@
 
   --border: oklch(0.90 0.02 85);
   --input: oklch(0.90 0.02 85);
-  --ring: oklch(0.62 0.18 65); /* Dorado/Champagne */
+  --ring: oklch(0.45 0.08 135); /* Verde Oliva */
 
   --radius: 0.5rem;
 
@@ -91,7 +91,7 @@
   --popover: oklch(0.22 0.02 85);
   --popover-foreground: oklch(0.95 0.01 85);
 
-  --primary: oklch(0.68 0.15 65); /* Dorado/Champagne más claro */
+  --primary: oklch(0.55 0.08 135); /* Verde Oliva más claro */
   --primary-foreground: oklch(0.98 0.01 85);
 
   --secondary: oklch(0.30 0.03 85);
@@ -100,7 +100,7 @@
   --muted: oklch(0.25 0.02 85);
   --muted-foreground: oklch(0.70 0.02 85);
 
-  --accent: oklch(0.70 0.14 65);
+  --accent: oklch(0.65 0.12 40);
   --accent-foreground: oklch(0.98 0.01 85);
 
   --destructive: oklch(0.704 0.191 22.216);
@@ -108,7 +108,7 @@
 
   --border: oklch(0.30 0.02 85);
   --input: oklch(0.30 0.02 85);
-  --ring: oklch(0.68 0.15 65);
+  --ring: oklch(0.55 0.08 135);
 }
 
 @layer base {
