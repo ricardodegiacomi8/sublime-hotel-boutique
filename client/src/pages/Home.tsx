@@ -356,11 +356,149 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>      {/* Pricing Section */}
+      <section id="pricing" className="py-24 bg-background">
+        <div className="container">
+          <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <span className="text-accent uppercase tracking-widest text-sm font-bold">Tarifas</span>
+            <h2 className="text-4xl md:text-5xl font-serif text-primary">Nuestras Tarifas</h2>
+            <p className="text-muted-foreground text-lg font-light">
+              Opciones de alojamiento diseñadas para cada tipo de huésped, con la mejor relación precio-calidad.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr className="border-b-2 border-accent">
+                  <th className="text-left py-4 px-6 font-serif text-lg text-primary">Tipo de Habitación</th>
+                  <th className="text-center py-4 px-6 font-serif text-lg text-primary">Capacidad</th>
+                  <th className="text-center py-4 px-6 font-serif text-lg text-primary">Amenidades</th>
+                  <th className="text-right py-4 px-6 font-serif text-lg text-primary">Tarifa/Noche</th>
+                </tr>
+              </thead>
+              <tbody>
+                {/* Single Room */}
+                <tr className="border-b border-border hover:bg-secondary/30 transition-colors">
+                  <td className="py-6 px-6">
+                    <div className="space-y-1">
+                      <p className="font-serif text-lg text-primary">Habitación Individual</p>
+                      <p className="text-sm text-muted-foreground">Ideal para viajeros solos</p>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-6 text-foreground">1 Persona</td>
+                  <td className="text-center py-6 px-6">
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">WiFi</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">A/C</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">TV</span>
+                    </div>
+                  </td>
+                  <td className="text-right py-6 px-6">
+                    <p className="font-serif text-xl text-accent">$65</p>
+                    <p className="text-xs text-muted-foreground">+ desayuno</p>
+                  </td>
+                </tr>
+
+                {/* Double Room */}
+                <tr className="border-b border-border hover:bg-secondary/30 transition-colors">
+                  <td className="py-6 px-6">
+                    <div className="space-y-1">
+                      <p className="font-serif text-lg text-primary">Habitación Doble</p>
+                      <p className="text-sm text-muted-foreground">Cama matrimonial confortable</p>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-6 text-foreground">2 Personas</td>
+                  <td className="text-center py-6 px-6">
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">WiFi</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">A/C</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">TV</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">Frigobar</span>
+                    </div>
+                  </td>
+                  <td className="text-right py-6 px-6">
+                    <p className="font-serif text-xl text-accent">$85</p>
+                    <p className="text-xs text-muted-foreground">+ desayuno</p>
+                  </td>
+                </tr>
+
+                {/* Twin Room */}
+                <tr className="border-b border-border hover:bg-secondary/30 transition-colors">
+                  <td className="py-6 px-6">
+                    <div className="space-y-1">
+                      <p className="font-serif text-lg text-primary">Habitación Twin</p>
+                      <p className="text-sm text-muted-foreground">Dos camas individuales</p>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-6 text-foreground">2 Personas</td>
+                  <td className="text-center py-6 px-6">
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">WiFi</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">A/C</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">TV</span>
+                      <span className="text-xs bg-secondary/50 text-foreground px-2 py-1 rounded">Frigobar</span>
+                    </div>
+                  </td>
+                  <td className="text-right py-6 px-6">
+                    <p className="font-serif text-xl text-accent">$85</p>
+                    <p className="text-xs text-muted-foreground">+ desayuno</p>
+                  </td>
+                </tr>
+
+                {/* Suite */}
+                <tr className="border-b border-border hover:bg-secondary/30 transition-colors bg-secondary/10">
+                  <td className="py-6 px-6">
+                    <div className="space-y-1">
+                      <p className="font-serif text-lg text-primary">Suite Deluxe</p>
+                      <p className="text-sm text-muted-foreground">Máximo confort y lujo</p>
+                    </div>
+                  </td>
+                  <td className="text-center py-6 px-6 text-foreground">2-3 Personas</td>
+                  <td className="text-center py-6 px-6">
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">WiFi</span>
+                      <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">A/C</span>
+                      <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">TV</span>
+                      <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">Frigobar</span>
+                      <span className="text-xs bg-accent/20 text-foreground px-2 py-1 rounded">Sala</span>
+                    </div>
+                  </td>
+                  <td className="text-right py-6 px-6">
+                    <p className="font-serif text-xl text-accent">$120</p>
+                    <p className="text-xs text-muted-foreground">+ desayuno</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-12 p-8 bg-secondary/20 rounded-xl border border-border/50 space-y-4">
+            <h3 className="font-serif text-xl text-primary">Notas Importantes</h3>
+            <ul className="space-y-2 text-muted-foreground font-light">
+              <li className="flex items-start gap-3">
+                <span className="text-accent mt-1">•</span>
+                <span>Todas las tarifas incluyen desayuno buffet excepcional y acceso a WiFi de alta velocidad.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-accent mt-1">•</span>
+                <span>Descuentos disponibles para estadías de 3 noches o más. Consulta nuestras promociones especiales.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-accent mt-1">•</span>
+                <span>Estacionamiento amplio y cubierto incluido sin costo adicional.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-accent mt-1">•</span>
+                <span>Para reservas especiales o grupos, contáctanos directamente a contacto.hotelsublime@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       {/* Location Section */}
-      <section id="location" className="py-0 bg-background">
-        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
+      <section id="location" className="py-24 bg-secondary/20">        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
           <div className="p-12 lg:p-24 flex flex-col justify-center space-y-8 bg-secondary/20">
             <div className="space-y-4">
               <span className="text-accent uppercase tracking-widest text-sm font-bold">Ubicación Privilegiada</span>
