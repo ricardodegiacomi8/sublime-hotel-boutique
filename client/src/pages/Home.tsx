@@ -173,6 +173,109 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Amenities Section */}
+      <section id="amenities" className="py-24 bg-background relative overflow-hidden">
+        <div className="container">
+          <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <span className="text-accent uppercase tracking-widest text-sm font-bold">Comodidades</span>
+            <h2 className="text-4xl md:text-5xl font-serif text-primary">Amenidades Completas</h2>
+            <p className="text-muted-foreground text-lg font-light">
+              Contamos con todas las comodidades para que su estadía sea perfecta.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {/* WiFi */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">WiFi Gratis</h3>
+              <p className="text-sm text-muted-foreground font-light">Conexión de alta velocidad en todas las áreas</p>
+            </div>
+
+            {/* Breakfast */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">Desayuno Incluido</h3>
+              <p className="text-sm text-muted-foreground font-light">Variado, fresco y de alta calidad</p>
+            </div>
+
+            {/* Air Conditioning */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4v2m0 0H8m4 0h4" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">Aire Acondicionado</h3>
+              <p className="text-sm text-muted-foreground font-light">Clima controlado en todas las habitaciones</p>
+            </div>
+
+            {/* TV Cable */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">TV por Cable</h3>
+              <p className="text-sm text-muted-foreground font-light">Entretenimiento en todas las habitaciones</p>
+            </div>
+
+            {/* Safe */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">Caja de Seguridad</h3>
+              <p className="text-sm text-muted-foreground font-light">Protección para sus valores</p>
+            </div>
+
+            {/* Minibar */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">Frigobar</h3>
+              <p className="text-sm text-muted-foreground font-light">Bebidas y snacks disponibles</p>
+            </div>
+
+            {/* Hairdryer */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">Secador de Pelo</h3>
+              <p className="text-sm text-muted-foreground font-light">En todas las habitaciones</p>
+            </div>
+
+            {/* Parking */}
+            <div className="flex flex-col items-center text-center p-6 rounded-xl bg-secondary/20 hover:bg-secondary/40 transition-colors border border-border/50 hover:border-accent/30 group">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-primary mb-2">Estacionamiento</h3>
+              <p className="text-sm text-muted-foreground font-light">Amplio y cubierto</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Reviews Section */}
       <section id="reviews" className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
