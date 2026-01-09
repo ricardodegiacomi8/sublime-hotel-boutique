@@ -118,8 +118,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <a href="tel:+595987488884" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Phone size={18} /> +595 987 488 884
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
-                <Instagram size={18} /> @sublimehotel
+              <a href="https://instagram.com/sublimehotelboutique" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Instagram size={18} /> @sublimehotelboutique
               </a>
               <div className="flex items-start gap-2">
                 <MapPin size={18} className="mt-1 shrink-0" />

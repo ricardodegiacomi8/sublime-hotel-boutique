@@ -328,7 +328,7 @@ export default function Home() {
               size="lg" 
               variant="outline"
               className="border-primary text-primary hover:bg-secondary rounded-full px-10 py-6 text-lg"
-              onClick={() => window.open('https://instagram.com', '_blank')}
+              onClick={() => window.open('https://instagram.com/sublimehotelboutique', '_blank')}
             >
               Ver Instagram
             </Button>
