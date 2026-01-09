@@ -34,18 +34,20 @@ export default function ReservationForm({ isOpen, onClose }: ReservationFormProp
         return;
       }
 
-      // Enviar email usando FormSubmit (servicio gratuito)
-      const form = new FormData();
-      form.append("nombre", formData.nombre);
-      form.append("apellido", formData.apellido);
-      form.append("contacto", formData.contacto);
-      form.append("mensaje", formData.mensaje);
-      form.append("_captcha", "false");
-      form.append("_next", window.location.href);
+      // Crear el cuerpo del formulario
+      const formBody = new FormData();
+      formBody.append("nombre", formData.nombre);
+      formBody.append("apellido", formData.apellido);
+      formBody.append("contacto", formData.contacto);
+      formBody.append("mensaje", formData.mensaje);
 
+      // Enviar usando el endpoint de Formspree con método POST
       const response = await fetch("https://formspree.io/f/xvzzpkyr", {
         method: "POST",
-        body: form,
+        headers: {
+          "Accept": "application/json",
+        },
+        body: formBody,
       });
 
       if (response.ok) {
@@ -53,11 +55,17 @@ export default function ReservationForm({ isOpen, onClose }: ReservationFormProp
         setFormData({ nombre: "", apellido: "", contacto: "", mensaje: "" });
         onClose();
       } else {
+        const errorData = await response.json();
+        console.error("Error response:", errorData);
         toast.error("Error al enviar la reserva. Intenta nuevamente.");
       }
     } catch (error) {
       console.error("Error:", error);
-      toast.error("Error al enviar la reserva. Intenta nuevamente.");
+      // Si falla Formspree, ofrecer alternativa de mailto
+      const mailtoLink = `mailto:contacto.hotelsublime@gmail.com?subject=Reserva de ${formData.nombre} ${formData.apellido}&body=Nombre: ${formData.nombre}%0AApellido: ${formData.apellido}%0AContacto: ${formData.contacto}%0AMensaje: ${formData.mensaje}`;
+      window.location.href = mailtoLink;
+      toast.info("Abriendo cliente de correo...");
+      onClose();
     } finally {
       setIsLoading(false);
     }
