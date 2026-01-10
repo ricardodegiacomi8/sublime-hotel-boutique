@@ -289,7 +289,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-serif">Lo que dicen nuestros huéspedes</h2>
             </div>
             <a 
-              href="https://www.google.com/maps" 
+              href="https://www.google.com/maps/place/Sublime+Hotel+Boutique/@-23.4067181,-57.4562472,16z/data=!4m11!1m2!2m1!1shotel!3m7!1s0x94669d0011846e95:0x802cc7167d5315d4!8m2!3d-23.4067183!4d-57.4499155!9m1!1b1!16s%2Fg%2F11yj9t1l2d?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-white flex items-center gap-2 border-b border-transparent hover:border-white transition-all pb-1"
