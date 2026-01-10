@@ -9,9 +9,9 @@ export default function Home() {
   const mapRef = useRef<google.maps.Map | null>(null);
   const [isReservationFormOpen, setIsReservationFormOpen] = useState(false);
 
-  // Coordenadas aproximadas de Concepción, Paraguay (centro)
-  // Ajustar si se tiene la ubicación exacta precisa
-  const hotelLocation = { lat: -23.4000, lng: -57.4333 }; 
+  // Coordenadas del Sublime Hotel Boutique - Calle Brasil esq. Concepción
+  // Plus code: HHV2+82 Concepción
+  const hotelLocation = { lat: -23.40556, lng: -57.43389 }; 
 
   return (
     <>
