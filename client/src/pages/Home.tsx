@@ -9,9 +9,8 @@ export default function Home() {
   const mapRef = useRef<google.maps.Map | null>(null);
   const [isReservationFormOpen, setIsReservationFormOpen] = useState(false);
 
-  // Coordenadas del Sublime Hotel Boutique - Calle Brasil esq. Concepción
-  // Plus code: HHV2+82 Concepción
-  const hotelLocation = { lat: -23.40556, lng: -57.43389 }; 
+  // Coordenadas exactas del Sublime Hotel Boutique desde Google Maps
+  const hotelLocation = { lat: -23.4067183, lng: -57.4499155 }; 
 
   return (
     <>
