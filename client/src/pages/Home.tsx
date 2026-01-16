@@ -78,7 +78,7 @@ export default function Home() {
               <div className="flex flex-col gap-2">
                 <Heart className="text-accent w-8 h-8" />
                 <h3 className="font-serif text-xl">Inclusivo</h3>
-                <p className="text-sm text-muted-foreground">Un ambiente seguro y amigable con la comunidad LGBTQ+.</p>
+                <p className="text-sm text-muted-foreground">Un ambiente acogedor y respetuoso para todos nuestros huéspedes.</p>
               </div>
             </div>
           </div>
